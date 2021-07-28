@@ -2,6 +2,7 @@ import streamlit as st
 
 st.write("This is a software to calculate GCS score")
 st.write("Welcome to the GCS score calculator  - copyright Dr Hrishikesh Sarkar")
+st.write("About me [link](https://getdrsarkar.com)")
 
 
 st.write("Enter level of consciousness")
