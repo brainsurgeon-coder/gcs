@@ -1,7 +1,8 @@
 import streamlit as st
 
-st.write("This is a software to calculate GCS score")
 st.write("Welcome to the GCS score calculator  - copyright Dr Hrishikesh Sarkar")
+st.write("This is a software to calculate GCS score. Made with python, streamlit and git. This is my first shareable app!!")
+
 st.write("About me [link](https://getdrsarkar.com)")
 
 
@@ -61,7 +62,7 @@ with st.form(key='my_form'):
     submit_button = st.form_submit_button(label='Submit')
 
 if submit_button:
-    st.write(gcs)
+    st.write("The GCS score of this patient is", gcs)
 
 
 
